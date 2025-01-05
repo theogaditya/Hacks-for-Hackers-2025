@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/events")
+      .get("https://hacks-for-hackers-2025.onrender.com/events")
       .then((response) => {
         const payload = response.data;
         setItems(payload);
